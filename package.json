@@ -1,19 +1,19 @@
 {
-  "name": "propererrorhandlingjavascript",
+  "name": "errorhandlingbestpracticies",
   "version": "0.0.1",
-  "private": true,
-  "description": "Proper ErrorHandling in JavaScript",
+  "description": "ErrorHandling in JavaScript - best practicies",
+  "license": "MIT",
   "author": {
-    "name": "C R",
-    "email": "reyesc@gmail.com"
+    "name": "Camilo Reyes (reyesc@gmail.com) - forked and modyfied by Zaprogramowany",
+    "email": "jestem@zaprogramowany"
   },
   "scripts": {
     "start": "node bin/www",
     "test": "node_modules/.bin/mocha --ui bdd tests/**/*.js"
   },
   "devDependencies": {
-    "mocha": "^2.4.5",
-    "should": "^8.2.0",
-    "supertest": "^1.1.0"
+    "mocha": "^3.0.2",
+    "should": "^11.1.0",
+    "supertest": "^2.0.0"
   }
 }

@@ -4,15 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Proper Error Handling in JavaScript</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 </head>
-<body>
+<body style="margin: 1em;">
     <h1>Error Handling in JavaScript</h1>
+
     <p>
-        <button id="bad">The Bad</button>
-        <button id="ugly">The Ugly</button>
-        <button id="proper">Proper Handler</button>
-        <button id="async">Asynchronous</button>
+        <button id="bad" class="btn btn-danger">The Bad</button>
+        <button id="ugly" class="btn btn-warning">The Ugly</button>
+        <button id="proper" class="btn btn-primary">Proper Handler</button>
+        <button id="async" class="btn btn-secondary">Asynchronous</button>
     </p>
+
     <script src="/scripts/error.js"></script>
     <script src="/scripts/badHandler.js"></script>
     <script src="/scripts/uglyHandler.js"></script>

@@ -1,12 +1,17 @@
-﻿*.suo
-.vs/
-*.DotSettings.user
+﻿.idea
+!.idea/runConfigurations
+*.iml
+.tmp
 
-# Build results
-[Oo]bj/
-*.dll
+**/node_modules
+**/bower_components
+**/npm-debug.log
 
-node_modules
+**/karma.*.default.conf.js
+**/karma.*.local.conf.js
+dist
+publish
+.bowerrc
 
 tsd.json
 typings/

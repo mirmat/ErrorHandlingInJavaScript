@@ -1,4 +1,4 @@
-﻿#Proper Error Handling In JavaScript
+﻿#Error handling - good pracitces
 
 To run:
 

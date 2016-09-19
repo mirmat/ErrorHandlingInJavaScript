@@ -1,5 +1,5 @@
 ﻿var app = require('../app');
-var port = process.env.port || 1337;
+var port = process.env.port || 8001;
 
 app.listen(port);
 console.log('Listening on http://localhost:' + port);
