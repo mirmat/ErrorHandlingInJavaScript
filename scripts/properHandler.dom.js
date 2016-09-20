@@ -1,9 +1,9 @@
-﻿(function (bomb) {
+﻿(function (boom) {
     var properButton = document.getElementById('proper');
 
     if (properButton) {
         properButton.addEventListener('click', function () {
-            bomb();
+            boom();
         });
     }
 }(error));

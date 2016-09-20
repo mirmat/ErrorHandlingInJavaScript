@@ -1,9 +1,9 @@
-﻿(function (handler, bomb) {
+﻿(function (handler, boom) {
     var asyncButton = document.getElementById('async');
 
     if (asyncButton) {
         asyncButton.addEventListener('click', function () {
-            handler(bomb);
+            handler(boom);
         });
     }
 }(asyncHandler, error));

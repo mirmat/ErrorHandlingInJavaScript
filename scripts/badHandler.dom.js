@@ -1,9 +1,9 @@
-﻿(function (handler, bomb) {
+﻿(function (handler, boom) {
     var badButton = document.getElementById('bad');
 
     if (badButton) {
         badButton.addEventListener('click', function () {
-            handler(bomb);
+            handler(boom);
             console.log('Imagine, getting promoted for hiding mistakes');
         });
     }

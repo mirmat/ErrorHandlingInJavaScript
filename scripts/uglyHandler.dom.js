@@ -1,9 +1,9 @@
-﻿(function (handler, bomb) {
+﻿(function (handler, boom) {
     var uglyButton = document.getElementById('ugly');
 
     if (uglyButton) {
         uglyButton.addEventListener('click', function () {
-            handler(bomb);
+            handler(boom);
         });
     }
 }(uglyHandler, error));
